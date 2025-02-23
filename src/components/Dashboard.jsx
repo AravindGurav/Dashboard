@@ -202,7 +202,7 @@ const Dashboard = () => {
             <button className="btn btn-outline-secondary">Filter</button>
           </div>
         </div>
-        <div className="row">
+        <div className="row mb-4">
           {projects.map((project, id) => (
             <div key={id} className="col-md-4">
               <div className="p-3 border rounded">
